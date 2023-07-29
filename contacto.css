@@ -1,0 +1,73 @@
+.contacto{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5d5f9;
+    padding: 120px 69px 69px 69px;
+    }
+
+    .contacto__formulario{
+        display: flex;
+        flex-direction: column;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    }
+    
+    .contacto__imagen{
+        width: 450px;
+        height: 590px;
+        margin: 10px;
+    }
+    .contacto__parrafo{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 16px;
+    }
+
+    form label, form legend{
+        display: block;
+        font-size: 20px;
+        margin: 0 0 10px;
+    }
+
+    .input{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 20px;
+        margin: 0 0 10px;
+        width: 640px;
+        height: 20px;
+    }
+    
+    .textarea{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 20px;
+        margin: 0 0 10px;
+    }
+    .boton--enviar{
+        background: #712AE4;
+        width: 150px;
+        height: 50px;
+        padding: 16px 16px;
+        border: none;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 16px;
+        font-style: normal;
+        color: #FFF;
+        margin: 10px 0 10px;
+    }
+    
+    @media (max-width: 1024px){
+        .contacto__imagen{
+            display: none;
+        }
+        .contacto{
+        display: block;
+        padding: 3% 3% 3% 3%;
+        }
+            
+    }
+
+    @media (max-width: 720px){
+        .contacto{
+            padding: 2% 2% 2% 2%;
+            }
+    }

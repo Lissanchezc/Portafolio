@@ -1,0 +1,119 @@
+
+.presentacion__introduccion{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2% 5% 2% 5%;
+
+}
+.presentacion__lista{
+    display: flex;
+    flex-direction: row;  
+}
+.presentacion__lista--icono{
+    display: flex;
+    flex-direction: row;  
+    margin:5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 8px;
+    list-style: none;
+    justify-content: left; /* Ajusta la alineación horizontal (izquierda) */
+    align-items: center; /* Ajusta la alineación vertical (centro) */
+
+}
+
+.presentacion__nombre{
+    display: block;
+    font-family:Segoe UI;
+    font-size: 45px; 
+    font-weight: bold;
+    margin: 0px 10px 0px 0px;/*Primero es para arriba */
+}
+
+.presentacion__descripcion{
+    font-family:Segoe UI;
+    font-size: 22px; 
+    margin: 8px;
+    margin: 10px 10px 0px 0px;/*Primero es para arriba */
+}
+
+.presentacion__foto{
+    width: 368px;
+    height: 368px;
+    border-radius: 100%;
+    margin: 0 20px 20px 0;
+
+}
+
+.presentacion__parrafo--titulo{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: left;
+    align-items: left;
+    font-size: 20px;
+}
+.miresumen{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: left;
+    align-items: left;
+    font-size: 16px;  
+}
+.presentacion__parrafo{
+    background-color: #e5d5f9;
+    padding: 5% 40% 5% 5%;
+}
+
+@media (max-width: 1024px){
+    .presentacion__foto{
+        width: 146px;
+        height: 146px;
+    }
+    
+.presentacion__nombre{
+    display: block;
+    font-size: 22px; 
+}
+.presentacion__descripcion{
+    font-size: 16px; 
+}
+
+.presentacion__parrafo--titulo{
+    font-size: 22px;
+}
+.miresumen{
+    font-size: 16px;  
+}
+.presentacion__parrafo{
+    padding: 5% 5% 5% 5%;
+}
+}
+
+@media (max-width: 720px){
+    .presentacion__introduccion{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: start;
+    }
+    .presentacion__foto{
+        width:98px;
+        height: 98px;
+    }  
+
+    .presentacion__nombre{
+        display: block;
+        font-size: 18px; 
+    }
+    .presentacion__descripcion{
+        font-size: 14px; 
+    }
+    
+    .presentacion__parrafo--titulo{
+        font-size: 22px;
+    }
+    .miresumen{
+        font-size: 14px;  
+    }
+    .presentacion__parrafo{
+        padding: 5% 5% 5% 5%;
+    }
+}
+

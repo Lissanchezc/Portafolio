@@ -1,0 +1,117 @@
+
+.experiencia{
+    padding: 2% 0% 3% 0%;
+}
+
+.experiencia__challenge{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2% 0% 3% 0%;
+  }
+  
+
+   .challenge__imagen {
+        width: 700px;
+        height: 400px;
+        margin: 1%;
+        border-style:solid;
+        border-width: 1px;
+        border-color: #712AE4;
+    }
+
+    .Challenge__titulo{
+        width: 368px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 24px;
+        font-weight: bold;
+    }
+    .Challenge__descripcion{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 16px;
+        font-weight: none;
+        font-style: normal;
+
+        }
+    
+    .Challenge__titulo .Challenge__descripcion{
+        display: block;
+
+    }
+
+    .Challenge__boton--repositorio{
+        border: 1px solid #7B61FF;
+        background: none;
+        padding: 16px 16px;
+        margin-bottom: 1px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 16px;
+        font-style: normal;
+        color: #712AE4;
+    }
+    .Challenge__boton--demo{
+        background: #712AE4;
+        padding: 16px 16px;
+        margin-bottom: 1px;
+        border: none;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 16px;
+        font-style: normal;
+        color: #FFF;
+    }
+      .challenge__imagen .challenge__imagen2{
+        margin-right: 1% 1% 1% 1% /* Espacio entre la imagen y el contenido */
+      }
+  
+      @media (max-width: 1024px){
+        .experiencia__challenge{
+            display: flex;
+            flex-direction: column-reverse;
+            justify-content: center;
+            align-items: center;
+            padding: 2% 2% 2% 2%;
+
+          }
+          .challenge__contenido{
+            order: -1;
+            align-items: center;
+          }
+        }
+        @media (max-width: 720px){
+
+          .experiencia__challenge{
+            display: flex;
+            flex-direction: column-reverse;
+            padding: 2% 2% 2% 2%;
+            align-items: center;
+            width: 100%;
+            max-width: 400px; /* Establecer un ancho máximo según tus necesidades */
+
+          }
+          .challenge__contenido{
+            order: -1;
+            align-items: center;
+            width: 100%;
+            max-width: 300px; /* Establecer un ancho máximo según tus necesidades */
+
+          }
+          .challenge__imagen {
+            width: 286px;
+            height: 144px;
+        }
+
+        .Challenge__titulo{
+          width: 200x;
+          font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+          font-size: 16px;
+      }
+      .Challenge__descripcion{
+          font-size: 14px;
+          }
+          .Challenge__boton--repositorio{
+            font-size: 14px;
+        }
+        .Challenge__boton--demo{
+          font-size: 14px;}
+      
+        }
